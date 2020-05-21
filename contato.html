@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Permanent+Marker|Stylish&display=swap" rel="stylesheet"> 
+      <title> Contato - Desenvolvimento Web</title>
+    <style>
+      #linkk1 {
+        font-family: 'Inconsolata', monospace;
+        font-size: 20pt;
+      }
+     #linkk1:hover {
+        background-color: #8165a2;
+        text-decoration: underline;       
+       
+     }
+     #h1-1 {
+       font-family:  'Indie Flower';
+       font-size: 50pt;
+       font-weight: bold;
+       opacity: 0.6;
+       margin-top: -40px;
+     }
+    body {
+      font-family: 'Inconsolata', monospace;
+      font-size: 20px;
+      text-align: justify;
+      letter-spacing: 1.2px;
+      word-spacing: 0.3px;
+      opacity: 0.9;
+     
+    }
+    #footer {
+     background-image: url(img/footer.jpg);
+     text-align: center;
+     opacity: 0.7;
+     
+    
+    }
+  header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #170925;
+    margin-bottom: 20px;
+  }
+
+  section {
+      display: block;
+      width: 100%;
+  }
+  /* FORMULÁRIO DE CONTATO*/
+ .content {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+ }
+ .contato {
+   width: 100%; max-width: 500px;
+   
+ }
+ .form {
+   display: flex;
+   flex-direction: column;
+  
+ }
+ .field {
+
+   padding: 10px; margin-bottom: 15px; border: 1 px solid #000; border-radius: 5px; font-size: 20px;
+ 
+ opacity: 0.8;
+ background-color:  #cfbbe4;
+   color:#170925;
+ }
+
+ textarea {
+   width: 505px;
+   height: 250px;
+
+  
+ }
+ .submit {
+   background-color: #170925;
+   color: #cfbbe4;
+   opacity: 0.8;
+ }
+ .logotipo {
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: -100px;
+   
+ }
+ .logotipo figcaption {
+  color: #170925;
+ }
+  
+    </style>
+    </head>
+    
+    <body>
+        <div id="div-cont">
+<header>
+      <!-- NAV BAR -->
+      <nav>
+      <ul class="nav  nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" id="linkk1" style="color: #cfbbe4;" href="index.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  id="linkk1" style="color: #cfbbe4;" href="servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="linkk1" style="color: #cfbbe4;" href="contato.html">Contato</a>
+        </li>
+     </ul>
+    </nav>
+    </header>
+        <!-- / NAV BAR -->
+        <figure class="logotipo">
+          <img src="img/logo-ball.png" width="200px" alt="Site responsivo para sua empresa">
+          <figcaption>Criação de sites, blogs e logotipo</figcaption>
+        </figure>
+
+        <br><br>
+        <h1 class="mb-5" id="h1-1" style="text-align: center; top: 20px; left:550px; margin-top: 85px;">Contato</h1>
+<section class="content">
+     <br>
+    
+     <div class="contato">
+        <form class="form" method="POST" action="email.php">
+            <input class="field" name="nome" placeholder="Nome">
+            <input class="field" name="telefone" placeholder="Telefone">
+            <textarea class="field" name="mensagem" placeholder="Em que podemos ajudar ?"></textarea>
+            <input class="submit" type="submit" value="Enviar">
+
+        </form>
+  </div>
+       </div>
+            </div>
+            <br><br><br>
+
+
+            </section>
+          </hr>
+                  <!-- Footer -->
+               <footer id="footer" style=" width:110%;">
+                  <h3>Desenlvovimento de sites e logotipo para sua empresa</h3>
+               </footer>
+    
+             </div>
+         </div>
+     </div>
+  </body>
+</html>
+                  
+                 
+   

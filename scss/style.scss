@@ -1,0 +1,13 @@
+$roxoescuro: #3e205c;
+$roxoclaro: #8165a2;
+$roxoletra: #cfbbe4;
+
+$theme-color:(
+    "roxoescuro": $roxoescuro,
+    "roxoclaro": $roxoclaro,
+    "roxoletra": $roxoletra
+);
+$body-bg: $roxoescuro;
+$body-color: $roxoletra;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
